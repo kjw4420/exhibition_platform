@@ -2,10 +2,10 @@
 
 ## :bookmark_tabs: 프로젝트 설명
 **Target: 이런 사람에게 추천해요** 🎯<br>
- 📌 전시회를 처음 가보고 싶은데 어떤 전시회를 가야하지?<br>
- 📌 SNS 유행따라 가는 전시회는 별로야! 내 취향에 맞는 전시회는 없을까?<br>
+ 📌 전시회를 처음 가보고 싶은데 어떤 전시회를 가야 하지?<br>
+ 📌 SNS 유행 따라가는 전시회는 별로야! 내 취향에 맞는 전시회는 없을까?<br>
  📌 이 전시회는 너무 광고 같은데?<br>
- 📌 다양한 전시회 정보를 알고싶어!<br><br>
+ 📌 다양한 전시회 정보를 알고 싶어!<br><br>
 
 **내 취향에 맞는 전시회** ❗️  <br>
  ✔️ 간단한 테스트를 통한 회원별 취향 탐색: 키워드 부여 <br>
@@ -24,9 +24,9 @@
 ## 📗 주요 기능
 🔍**회원가입 및 로그인**<br>
 회원가입 페이지에 아이디, 비밀번호, 이름, 닉네임을 받아와 서버를 통해 ExhibitionDB에 있는 Accounts Table에 저장한 후 로그인을 진행한다. 로그인 창에 입력한 아이디와 비밀번호가 Accounts Table에 있는 정보와 일치하면 로그인이 허가된다.<br><br>
-🔍**취향분석(분류; 회원 취향 분석)**<br>
-로그인을 하면 취향분석 테스트를 할 수 있는 링크가 생성되고 이를통해 로그인한 회원이 선택하는 대답에 따라서 취향(ex, 현대적, 전통적 등)을 분석하여 Exhibition DB에 있는 Accounts Table에 들어있는 키워드로 분류하여 회원정보와 함께 저장한다.<br><br>
-🔍**필터정렬(읽기; 최신순, 취향별)**<br>
+🔍**취향 분석(분류; 회원 취향 분석)**<br>
+로그인을 하면 취향 분석 테스트를 할 수 있는 링크가 생성되고 이를 통해 로그인한 회원이 선택하는 대답에 따라서 취향(ex, 현대적, 전통적 등)을 분석하여 Exhibition DB에 있는 Accounts Table에 들어있는 키워드로 분류하여 회원정보와 함께 저장한다.<br><br>
+🔍**필터 정렬(읽기; 최신순, 취향별)**<br>
 Exhibition_detail Table로부터 등록된 전시회 리스트를 받아온 후 필터를 사용해 취향별 (키워드), 최신순으로 정렬하고 이를 사용자에게 보여준다.<br><br>
 🔍**전시정보<사용자>(삽입, 읽기, 상세정보)**<br>
 사용자가 전시회 리스트에서 누른 전시의 상세정보를 보여준다. 상세정보는 전시회 이름, 전시회 상세설명, 장소, 가격, 공식홈페이지 링크, 사진 촬영 가능 여부를 포함한다.<br><br>
@@ -59,7 +59,7 @@ Exhibition_detail Table로부터 등록된 전시회 리스트를 받아온 후 
 ### Back-end
 
 **언어**<br>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/><br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=Javascript&logoColor=white"/><br>
 **프레임워크/라이브러리**<br>
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/> <br>
 
