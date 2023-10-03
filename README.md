@@ -40,7 +40,7 @@ Exhibition_detail Table로부터 등록된 전시회 리스트를 받아온 후 
 
 |               | github                             |
 | ------------- | ---------------------------------- |
-| **김지원**  |https://github.com/kjw4420    |
+| 김지원  |https://github.com/kjw4420    |
 | 조서현        |   https://github.com/westnowise      |
 
 ### 디자인
