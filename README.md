@@ -54,6 +54,38 @@
 - 회원가입시 간단한 테스트를 통해 사용자에게 키워드 부여
 - 해당 키워드를 가진 전시회 리스트 정렬: 회원별 전시회 추천
 - 전체 정보 최신순 정렬
+
+
+#필터 정렬(최신, 키워드))
+def sort(request,key):
+    login_session = request.session.get('login_session','')
+    if login_session == '':  #로그인 X
+        login_session= False
+        if key=="최신순": #최신순 정렬
+            exhibition= ExhibitionDetail.objects.all().order_by('-exhibition_id') #전시회 정보 테이블로부터 생성 id기준 최신 정렬
+            filter=False #sort.html에서 드롭다운을 위한 filter 변수
+            return render(request, 'Sort/sort.html', {'exhibition':exhibition, 'key':key,'filter':filter,'login_session':login_session})    
+        else: #필터정렬
+            exhibition=ExhibitionDetail.objects.filter(keyword=key) #키워드 필터링(user가 가지고 있는 key값 기준)
+            exhibition=exhibition.order_by('-exhibition_id') #키워드 필터링 후 키워드 s최신순 정렬
+            filter=True #sort.html에서 드롭다운을 위한 filter 변수
+            return render(request, 'Sort/sort.html', {'exhibition':exhibition, 'key':key,'filter':filter,'login_session':login_session})    
+    else: #로그인 O     
+        login_session= True
+        id=request.session['login_session']  #현재 admin 로그인 세션 정보 받아오기
+        user=Account.objects.get(userid=id) #로그인 한 admin 세션으로부터  admin 객체 상세 정보 받아오기
+        keyword=user.keyword #admin user의 id값
+        if key=="최신순": #최신순 정렬
+            exhibition= ExhibitionDetail.objects.all().order_by('-exhibition_id') #전시회 정보 테이블로부터 생성 id기준 최신 정렬
+            filter=True #sort.html에서 드롭다운을 위한 filter 변수
+            return render(request, 'Sort/sort.html', {'exhibition':exhibition, 'key':key,'keyword':keyword,'filter':filter,'login_session':login_session}) 
+        else: #필터정렬
+            exhibition=ExhibitionDetail.objects.filter(keyword=key) #키워드 필터링(user가 가지고 있는 key값 기준)
+            exhibition=exhibition.order_by('-exhibition_id') #키워드 필터링 후 키워드 s최신순 정렬
+            filter=True #sort.html에서 드롭다운을 위한 filter 변수
+            return render(request, 'Sort/sort.html', {'exhibition':exhibition, 'key':key,'keyword':keyword,'filter':filter,'login_session':login_session}) 
+
+sort/views.py
   
 
 
