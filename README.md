@@ -24,13 +24,13 @@
 -[일반 사용자]: 사용자가 전시회 리스트에서 누른 전시의 상세정보를 보여준다. 상세정보는 전시회 이름, 전시회 상세설명, 장소, 가격, 공식홈페이지 링크, 사진 촬영 가능 여부를 포함한다. <br>
 -[관리자]: 전시정보를 등록하는 것으로 전시회 이름, 전시회 상세설명, 장소, 가격, 공식홈페이지 링크, 사진 촬영 가능 여부에 대한 정보를 삽입, 삭제, 갱신(수정)이 가능하도록 한다.<br><br>
 
-
+<div align="center">
 <img width="683" alt="스크린샷 2023-09-12 오전 1 58 12" src="https://github.com/kjw4420/exhibition_platform/assets/97749184/3bf166cf-8f29-40c9-af77-76fcf0767f8a"><br>
 <img width="683" alt="스크린샷 2023-09-12 오전 1 58 05" src="https://github.com/kjw4420/exhibition_platform/assets/97749184/87064bbc-0f45-4cd3-9d2f-ca029c936fe2"><br>
 <img width="683" alt="스크린샷 2023-09-12 오전 1 58 24" src="https://github.com/kjw4420/exhibition_platform/assets/97749184/47ddc16d-e29e-4f6f-aa94-ca2ceca2942d"><br>
 <img width="820" alt="스크린샷 2023-09-12 오전 1 58 41" src="https://github.com/kjw4420/exhibition_platform/assets/97749184/3b540fc5-2575-4e7d-b67c-14b9fa6a8e30"><br>
 <img width="820" alt="스크린샷 2023-09-12 오전 1 58 54" src="https://github.com/kjw4420/exhibition_platform/assets/97749184/ab56812d-dbc5-4548-8328-9890e4f9ecda">
-
+</div>
 
 
 
