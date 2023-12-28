@@ -14,8 +14,9 @@
 사용자의 취향별 전시회 정보 소개 웹페이지로, 현존해 있는 전시회 정보 사이트들은 대부분 단순히 전시회들의 정보를 소개하여 사용자가 관련 전시회에 대한 정보를 파악하고 있어야 하는 페이지들이 대부분이다. 연령층에 구애 없이 전시회를 관람하는 사람들이 증가하고 있지만, 전시 회에 대해 접한 지 얼마 되지 않은 사용자들 또한 증가하고 있어, 자신이 원하는 종류의 전시회 를 찾기에서 어려움을 겪는다. 이러한 문제들을 해결하기 위해 회원가입 시, 사용자들에게 질문과 그림들을 통해 각 사용자의 취향을 분석하고 저장하여 원하는 전시회를 소개할 수 있도록 한다. 이 웹페이지를 통하여 전시회를 자주 방문하는 사람들은 더 쉽게 전시회를 찾을 수 있을 뿐만 아 니라 전시회를 자주 접해보지 않아서 선택에 어려움을 겪는 사용자들까지 쉽게 원하는 전시회를 찾을 수 있게 된다. 또한 원하는 전시회를 클릭하면 전시회의 위치, 가격, 관련 링크 등을 통하여 정보들을 얻고 북마크를 통하여 더 많은 사람이 문화생활을 좀 더 다양하고 편하게 즐길 수 있음을 기대할 수 있다.
 
 ## :bookmark_tabs: 프로젝트 구성도
+<div align="center">
 <img width="794" alt="스크린샷 2023-12-07 오전 3 33 05" src="https://github.com/kjw4420/exhibition_platform/assets/97749184/9ebb0119-e327-49b5-adb1-5806b405e816">
-
+</div>
 
 ## :bookmark_tabs: 기능 소개
  ✔️ **회원 전시 취향 분석:** <br>
@@ -36,7 +37,7 @@
 <img width="820" alt="스크린샷 2023-09-12 오전 1 58 54" src="https://github.com/kjw4420/exhibition_platform/assets/97749184/ab56812d-dbc5-4548-8328-9890e4f9ecda">
 </div>
 
-
+## :bookmark_tabs: 문제해결:
 
 ## 👩🏻‍💻 멤버
 
@@ -68,6 +69,6 @@
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/> <br>
 
 **데이터베이스**<br>
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=white">
 
 
